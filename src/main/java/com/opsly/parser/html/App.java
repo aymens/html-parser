@@ -46,9 +46,9 @@ public class App {
 			System.out.println("Wrong arguments number!\n "//
 					+ "This program expects one single string argument reprenting a url of a html page.\n"//
 					+ "Examples:\n"
-					+ "(html document on the internet)"
-					+ "java -jar path_to_jar/html-parser-jar-with-dependencies.jar \"https://www.wikipedia.org/\""
-					+ "(local html file with relative path)"
+					+ "(html document on the internet)\n"
+					+ "java -jar path_to_jar/html-parser-jar-with-dependencies.jar \"https://www.wikipedia.org/\"\n"
+					+ "(local html file with relative path)\n"
 					+ "java -jar path_to_jar/html-parser-jar-with-dependencies.jar \"file:./pom.xml\"");
 			System.exit(1);
 		} else {
